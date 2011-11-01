@@ -20,6 +20,7 @@
 		2D5B29B61455C74200D51695 /* grid.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2D5B29B31455C74200D51695 /* grid.bmp */; };
 		2D5B29B71455C74200D51695 /* o.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2D5B29B41455C74200D51695 /* o.bmp */; };
 		2D5B29B81455C74200D51695 /* x.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2D5B29B51455C74200D51695 /* x.bmp */; };
+		2D990B0C145DAB0300F32671 /* CApp_CheckForFinishedGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D990B0B145DAB0300F32671 /* CApp_CheckForFinishedGame.cpp */; };
 		9C93E39613942B5A0096FAB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C93E39513942B5A0096FAB3 /* Cocoa.framework */; };
 		9C93E3A013942B5A0096FAB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C93E39E13942B5A0096FAB3 /* InfoPlist.strings */; };
 		9C93E3A613942B5A0096FAB3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9C93E3A413942B5A0096FAB3 /* Credits.rtf */; };
@@ -48,6 +49,7 @@
 		2D5B29B31455C74200D51695 /* grid.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = grid.bmp; sourceTree = "<group>"; };
 		2D5B29B41455C74200D51695 /* o.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = o.bmp; sourceTree = "<group>"; };
 		2D5B29B51455C74200D51695 /* x.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = x.bmp; sourceTree = "<group>"; };
+		2D990B0B145DAB0300F32671 /* CApp_CheckForFinishedGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CApp_CheckForFinishedGame.cpp; sourceTree = "<group>"; };
 		9C93E39113942B5A0096FAB3 /* HelloSDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSDL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C93E39513942B5A0096FAB3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9C93E39813942B5A0096FAB3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -131,6 +133,7 @@
 				2D5B298C1452D21000D51695 /* CApp_OnInit.cpp */,
 				2D5B298F1452D21A00D51695 /* CApp_OnEvent.cpp */,
 				2D5B29911452D22400D51695 /* CApp_OnLoop.cpp */,
+				2D990B0B145DAB0300F32671 /* CApp_CheckForFinishedGame.cpp */,
 				2D5B29931452D22B00D51695 /* CApp_OnRender.cpp */,
 				2D5B29951452D23500D51695 /* CApp_OnCleanup.cpp */,
 			);
@@ -282,6 +285,7 @@
 				2D5B29961452D23500D51695 /* CApp_OnCleanup.cpp in Sources */,
 				2D5B29A11452DF4500D51695 /* CSurface.cpp in Sources */,
 				2D5B29AD14531C8300D51695 /* CEvent.cpp in Sources */,
+				2D990B0C145DAB0300F32671 /* CApp_CheckForFinishedGame.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

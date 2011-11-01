@@ -9,5 +9,14 @@
 #include "CApp.h"
 
 void CApp::OnLoop() {
-
+    int gameWinner = CheckForFinishedGame();
+    if (NOBODY != gameWinner) {
+        if (DRAW == gameWinner) {
+            cout << "Draw game\n";
+        }
+        else {
+            cout << "Winner is Player " << gameWinner << endl;
+        }
+        Running = false;
+    }
 }

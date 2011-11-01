@@ -22,16 +22,14 @@ void CApp::OnLButtonDown(int mX, int mY) {
     if (grid[ID] != GRID_TYPE_NONE) {
         return;
     }
-    if (1 == current_player) {
-        cout << 1;
-        current_player = 2;
+    if (PLAYER_1 == current_player) {
+        current_player = PLAYER_2;
         grid[ID] = GRID_TYPE_X;
         return; // to prevent fall through
     }
-    if (2 == current_player) {
-        cout << 2;
-        current_player = 1;
+    if (PLAYER_2 == current_player) {
+        current_player = PLAYER_1;
         grid[ID] = GRID_TYPE_0;
         return; // to prevent fall through
-    }    
+    }
 }

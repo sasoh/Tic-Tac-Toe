@@ -31,15 +31,23 @@ class CApp: public CEvent {
         void OnRender();
         void OnCleanup();
         void OnExit();
+        int CheckForFinishedGame();
+        int GetElementFromArray(int row, int col);
     private:
         bool Running;
         int display_width;
         int display_height;
         int current_player;
-        enum {
-            GRID_TYPE_NONE,
-            GRID_TYPE_X,
-            GRID_TYPE_0,
+        enum Grid_Elements {
+            GRID_TYPE_NONE  = 0,
+            GRID_TYPE_X     = 1,
+            GRID_TYPE_0     = 2,
+        };
+        enum Player_Identifiers {
+            DRAW        = 0,
+            PLAYER_1    = 1,
+            PLAYER_2    = 2,
+            NOBODY      = 3,
         };
         int grid[9];
         SDL_Surface *Display_Surface;

@@ -22,10 +22,7 @@
 		2D5B29B81455C74200D51695 /* x.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2D5B29B51455C74200D51695 /* x.bmp */; };
 		2D990B0C145DAB0300F32671 /* CApp_CheckForFinishedGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D990B0B145DAB0300F32671 /* CApp_CheckForFinishedGame.cpp */; };
 		9C93E39613942B5A0096FAB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C93E39513942B5A0096FAB3 /* Cocoa.framework */; };
-		9C93E3A013942B5A0096FAB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C93E39E13942B5A0096FAB3 /* InfoPlist.strings */; };
-		9C93E3A613942B5A0096FAB3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9C93E3A413942B5A0096FAB3 /* Credits.rtf */; };
 		9C93E3A913942B5A0096FAB3 /* HelloSDLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C93E3A813942B5A0096FAB3 /* HelloSDLAppDelegate.m */; };
-		9C93E3AC13942B5A0096FAB3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C93E3AA13942B5A0096FAB3 /* MainMenu.xib */; };
 		9C93E3B313942B700096FAB3 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C93E3B213942B700096FAB3 /* SDL.framework */; };
 		9C93E3B613942C360096FAB3 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C93E3B513942C360096FAB3 /* SDLMain.m */; };
 		9C93E3B913942C790096FAB3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C93E3B713942C790096FAB3 /* main.cpp */; };
@@ -56,12 +53,9 @@
 		9C93E39913942B5A0096FAB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9C93E39A13942B5A0096FAB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9C93E39D13942B5A0096FAB3 /* HelloSDL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSDL-Info.plist"; sourceTree = "<group>"; };
-		9C93E39F13942B5A0096FAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C93E3A113942B5A0096FAB3 /* HelloSDL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSDL-Prefix.pch"; sourceTree = "<group>"; };
-		9C93E3A513942B5A0096FAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		9C93E3A713942B5A0096FAB3 /* HelloSDLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloSDLAppDelegate.h; sourceTree = "<group>"; };
 		9C93E3A813942B5A0096FAB3 /* HelloSDLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSDLAppDelegate.m; sourceTree = "<group>"; };
-		9C93E3AB13942B5A0096FAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9C93E3B213942B700096FAB3 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Library/Frameworks/SDL.framework; sourceTree = SDKROOT; };
 		9C93E3B413942C360096FAB3 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLMain.h; path = ../SDLMain.h; sourceTree = "<group>"; };
 		9C93E3B513942C360096FAB3 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = ../SDLMain.m; sourceTree = "<group>"; };
@@ -101,11 +95,8 @@
 				9C93E3B513942C360096FAB3 /* SDLMain.m */,
 				9C93E3A713942B5A0096FAB3 /* HelloSDLAppDelegate.h */,
 				9C93E3A813942B5A0096FAB3 /* HelloSDLAppDelegate.m */,
-				9C93E3AA13942B5A0096FAB3 /* MainMenu.xib */,
 				9C93E39D13942B5A0096FAB3 /* HelloSDL-Info.plist */,
-				9C93E39E13942B5A0096FAB3 /* InfoPlist.strings */,
 				9C93E3A113942B5A0096FAB3 /* HelloSDL-Prefix.pch */,
-				9C93E3A413942B5A0096FAB3 /* Credits.rtf */,
 				9C93E3B713942C790096FAB3 /* main.cpp */,
 				9C93E3B813942C790096FAB3 /* main.h */,
 			);
@@ -256,9 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C93E3A013942B5A0096FAB3 /* InfoPlist.strings in Resources */,
-				9C93E3A613942B5A0096FAB3 /* Credits.rtf in Resources */,
-				9C93E3AC13942B5A0096FAB3 /* MainMenu.xib in Resources */,
 				2D5B29A31452E8A800D51695 /* char_02b.bmp in Resources */,
 				2D5B29A9145319FA00D51695 /* tileset.bmp in Resources */,
 				2D5B29B61455C74200D51695 /* grid.bmp in Resources */,
@@ -290,33 +278,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9C93E39E13942B5A0096FAB3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C93E39F13942B5A0096FAB3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9C93E3A413942B5A0096FAB3 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C93E3A513942B5A0096FAB3 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		9C93E3AA13942B5A0096FAB3 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C93E3AB13942B5A0096FAB3 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9C93E3AD13942B5A0096FAB3 /* Debug */ = {
